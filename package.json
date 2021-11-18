@@ -1,0 +1,35 @@
+{
+  "name": "js-example-sw-eng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "serve": "webpack serve --mode=development"
+  },
+
+  "jest": {
+    "transform": {
+      "^.*/src/.+js$": "babel-jest"
+    }
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rad0r0man/js-example-sw-eng.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rad0r0man/js-example-sw-eng/issues"
+  },
+  "homepage": "https://github.com/rad0r0man/js-example-sw-eng#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.3.1",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}
